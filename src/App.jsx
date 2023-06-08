@@ -102,7 +102,7 @@ function App() {
               border: "rounded-full",
             }}
           >
-            <img width={"200px"} src="/motion_Photo.gif" alt="" />
+            <img width={"200px"} src="/motion_photo.gif" alt="" />
           </Box>
           <div style={{ marginTop: "50px", color: "#0b9616" }}>
             <h1>Motion Questions :</h1>
