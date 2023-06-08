@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat" !important;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/motion_background.jpg);
+}
+.Box {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.generate-button .MuiButton-endIcon {
+  display: none;
+}
+
+.generate-button:hover .MuiButton-endIcon {
+  display: inline-flex;
+}
