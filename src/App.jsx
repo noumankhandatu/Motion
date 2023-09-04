@@ -105,7 +105,7 @@ function App() {
             <img width={"200px"} src="/motion_photo.gif" alt="" />
           </Box>
           <div style={{ marginTop: "50px", color: "#0b9616" }}>
-            <h1>Motion Questions :</h1>
+            <h1>Motion :</h1>
             <br />
             <Typography
               style={{
@@ -118,7 +118,7 @@ function App() {
             </Typography>
           </div>
           <Button onClick={handleBack} sx={{ mt: 3 }} variant="contained" color="success" fullWidth endIcon={<HelpIcon />}>
-            <b> Try Another Motion Question </b>
+            <b> Try Another   </b>
           </Button>
           <Button onClick={handleSubmit} sx={{ mt: 3 }} variant="contained" color="warning" fullWidth endIcon={<RotateRightIcon />}>
             <b> Generate Again </b>
@@ -197,7 +197,7 @@ function App() {
               color="success"
               sx={{ mt: 3 }}
               minRows={5}
-              placeholder="Sample Oral Question (optional)"
+              placeholder="Sample Motion (optional)"
               size="lg"
             />
             {/* word count */}
@@ -215,7 +215,7 @@ function App() {
                 type="submit"
                 endIcon={<SendIcon fontSize="large" />}
               >
-                <b> Generate Motion Questions </b>
+                <b> Generate Motion </b>
               </Button>
             )}
           </form>
